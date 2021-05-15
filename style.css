@@ -1,0 +1,152 @@
+body {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+#container {
+  margin: 5vh 20vw;
+}
+
+#nav{
+  display:flex;  
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav a {
+  text-decoration: none;
+  color: rgb(0, 0, 0, 0.87);
+}
+
+#links a {
+  padding-left: 1rem;
+}
+
+#links a:hover {
+  color:rgb(0,0,0, 0.5);
+  background-color: #f1f1f1;
+}
+#description{
+  margin-top: 7vh;
+  width: 80%;
+}
+
+#description a{
+  background: rgb(173,46,65);
+  background: linear-gradient(135deg, rgba(173,46,65,1) 0%, rgba(114,16,83,1) 100%);
+  -webkit-text-fill-color: transparent;-webkit-background-clip: text;
+  position: relative;
+}
+
+#description a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0%;
+  position: absolute;
+  background: rgb(0, 0, 0);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+#description a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+#description p{
+  font-size: 1.3vw;
+  color: rgb(0,0,0, 0.7)
+}
+
+.link_icon {
+  font-size: 0.8rem;
+}
+
+#social a{
+  color: rgb(0, 0, 0, 0.87);
+  font-size: 1.7vw;
+  padding-right: 0.9rem;
+}
+
+#social{
+  margin-top: 5vh;
+}
+
+.border {
+  width: 99%;
+  height: 310px;
+  background: transparent;
+  border-radius: 8px;
+  transition: border 1s;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.border:hover {
+  border: 1px solid #fff;
+}
+
+.card {
+  height: 310px;
+  width: 100%;
+  background: #808080;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 4px 20px 0px rgb(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.border h1{
+  margin-bottom: 0;
+}
+
+.border p{
+  margin-top: 0.5vh;
+}
+
+.card0 {
+  background: url("assets/assured_card.png") center center no-repeat;
+  background-size: cover;
+}
+
+.card0:hover {
+  background: url("assets/assured_card.png") left center no-repeat;
+  background-size: cover;
+}
+
+#case_study{
+  margin-top: 7vh;
+}
+
+#case_study a {
+  text-decoration: none;
+  color: rgb(0, 0, 0, 0.87);
+}
+
+@media only screen and (max-width: 600px) {
+  #container {
+    margin: 5vh 5vw;
+  }
+
+  #description {
+    width: 100%;
+  }
+
+  #description p {
+    font-size: 1rem;
+  }
+
+  #social a{
+    font-size: 1.8rem;
+    padding-right: 1.6rem;
+  }
+}
