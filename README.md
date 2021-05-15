@@ -1,1 +1,1 @@
-# Aaryan-s-Design-Portfolio
+# Aaryan-Design-Portfolio
