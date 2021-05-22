@@ -1,4 +1,6 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Aaryan | Ixigo Assured </title>
+<html><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap" rel="stylesheet"> <title>Aaryan | Ixigo Assured </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 
 <style>
@@ -15,6 +17,7 @@ html,
 body {
 	margin: 0;
 	padding: 0;
+  font-family: 'Red Hat Display', sans-serif;
 }
 @media only screen {
 	body {
@@ -69,13 +72,6 @@ h2 {
 h3 {
 	font-size: 1.25rem;
 	margin-top: 1.25rem;
-}
-
-.source {
-	border: 1px solid #ddd;
-	border-radius: 3px;
-	padding: 1.5em;
-	word-break: break-all;
 }
 
 .callout {
@@ -463,17 +459,6 @@ blockquote {
 	margin-top: 0.25em;
 }
 
-.sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
-.code { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace; }
-.serif { font-family: Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif; }
-.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
-.pdf .sans { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
-
-.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
-
-.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC', 'Noto Sans CJK KR'; }
-
-.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC', 'Noto Sans Mono CJK KR'; }
 
 .highlight-default {
 }
@@ -628,10 +613,27 @@ blockquote {
 }
 
 #backBtn {
+  top: 2vh;
+  left: 2vw;
+  height: 56px;
+  width: 56px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-flex;
   position: absolute;
-  text-decoration: none;
-  top: 1vh;
-  left: 1vw;
+  box-shadow: 0 4px 20px 0px rgb(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+#backBtn a{
+  font-size: 1.2rem; 
+  padding: 20px 20px;
+  position: relative; 
+}
+
+#backBtn a:hover{
+  border-radius: 50%;
+  box-shadow: 0 8px 20px 0px rgb(0, 0, 0, 0.3);
 }
 
 @media only screen and (max-width: 600px) {
@@ -641,9 +643,10 @@ blockquote {
 }
 	
 </style></head><body>
-  <a href="index.html" id="backBtn">
-  <i class="fas fa-arrow-left"></i>
-  </a>
+  <div id="backBtn">
+    <a href="index.html"><i class="fas fa-arrow-left"></i></a>
+  </div>
+  
   <article id="8573b92c-3ea4-4074-a402-d69e1c9913d6" class="page sans"><header><img class="page-cover-image" src="https://www.notion.so/images/page-cover/solid_beige.png" style="object-position:center 40%"/><div class="page-header-icon page-header-icon-with-cover"><span class="icon">🛩️</span></div><h1 class="page-title">ixigo Assured Revamp</h1></header><div class="page-body"><p id="dda6e6e7-a9f9-4df4-9ee4-5c56aacb75ae" class=""><strong>ixigo </strong>is an Indian online travel portal that encompasses all your trips from flights, trains, buses and hotels. As per the day of writing this article, <strong>ixigo</strong> is the only OTA (online travel agent) that is profitable in the 1st quarter of 2021 despite the ongoing Covid-19 pandemic. Users are opting ixigo to book their travel itinerary.</p><h2 id="c6e7475f-2547-497b-97b1-f67619cf9d70" class="">🎬 OVERVIEW</h2><p id="e5a4b74a-4d3f-4905-b1b1-01a72a1c8f04" class="">Soon after we launched the <strong>&quot;ixigo Assured&quot; </strong>fare type as a free cancellation USP in July 2020, we saw a surge in its attachment rate versus the usual basic fare type. This was a boost both towards the business and the end users.</p><p id="545da2e4-3d5b-4e34-8fd3-4aeda1473849" class="">But come September 2020, the attachment rates plunged. The NPS rate got low, and it gave us a translucent picture of what all problems persisted in the funnel. Part of the reason was we launched the &quot;ixigo Assured&quot; back in July to cater to the imminent problems without an extensive research. </p><figure id="f9f0ec6f-1ff9-4471-b0e1-626e223165dc" class="image"><a href="ixigo%20Assured%20Revamp%20f9f0ec6f1ff94471b0e1626e223165dc/1_-_Overview.png"><img style="width:1818px" src="ixigo%20Assured%20Revamp%20f9f0ec6f1ff94471b0e1626e223165dc/1_-_Overview.png"/></a></figure><p id="20f54997-9bf7-4052-a553-e4d63f326b6a" class="">Now came the time to get our hands dirty and our objective was clear, that is, to come up with a solution(s) to increase the attachment rate and better NPS ratings. </p><p id="98e6286e-2e93-48f9-be0e-018e5199b21e" class="">
 </p><hr id="03084107-9304-4732-94e2-7a3c59edf65e"/><h2 id="f11715db-48d8-49c7-b245-bf9a2f51a108" class="">THE  DESIGN PROBLEM</h2><p id="80b00e15-acd4-45df-aab1-944c8740cadb" class="">It&#x27;s extremely important to get the user to book faster after they have decided to go ahead with their travel itinerary. We needed a framework that doesn&#x27;t put cognitive load in trying to decide the fare type and communicates its value proposition succinctly. </p><h2 id="e2d42a76-3500-40ec-871a-08b391bfc525" class="">THE BUSINESS CASE</h2><p id="7fa0b6f5-b789-4086-98c5-1f75ada67e42" class=""><strong>ixigo Assured </strong>as a product has a direct impact on the revenue stream.</p><p id="b2632aa2-ea50-480c-a7a0-5786d11e67b4" class="">To understand this lets reiterate what an insurance is! 
 Insurance by definition, is a contract, represented  by a policy, that <strong>gives individuals a financial protection</strong> or a reimbursement against losses in an unprecedented event. </p><p id="1d023484-c50b-47bf-baac-02ec37a2aa21" class="">&quot;ixigo Assured&quot; protects the end users to get full refund of a booking if they cancel for any reason. On cancellation of a booking, there&#x27;s a long process or filing a claim that renders getting refund a steep hill to climb. There was a need for easy, better and a hassle-free refund mechanism.</p><p id="ff25fb2c-54d9-4669-ab02-d539acae2b29" class="">
@@ -670,7 +673,13 @@ B. Flight Details
 </p><hr id="9c9a284d-0cd9-417c-b88c-ecdd580a7e31"/><h2 id="8e35bf56-7b5e-4f37-86a2-13bd82e89042" class="">FINALISED CONCEPT</h2><p id="0668ba7e-f60d-4b0c-8a44-e345bd1a624b" class="">We were able to get few awesome ideas for the sprint. Broadly the ideas presented were surrounded by two journey themes.</p><ol id="98bdcb3a-c2f4-46a2-a9e4-d06e78ef233f" class="numbered-list" start="1"><li><strong>Pre-Booking Journey : </strong> The idea was to properly communicate the <strong>ixigo Assured</strong> USP and render a seamless booking experience. Also to explore upgrade/up-sell of the booking with reinforcements of the Free Cancellation benefits throughout the funnel.</li></ol><ol id="459f3231-8426-4d91-a796-07ac669322fb" class="numbered-list" start="2"><li><strong>Post booking Journey : </strong>Use the cross-sell paradigm to sell the ixigo Assured as an insurance add-on upto 24 hrs after the booking has been confirmed via channels as home page cross-sell in app, whatsapp communication and trips section</li></ol><p id="50e06311-98d1-4599-bbdc-19a477ed740a" class="">
 </p><h2 id="1c0bc307-327a-4fa2-982c-db77bf5590ba" class="">Pre-Booking Journey - Phase 1</h2><p id="1dd9e288-a95f-4384-b6b3-09473971f2b7" class="">Here we wanted to focus on communicating the ixigo Assured product. What is does, how is it beneficial to the user and whether do they even need it, all in a faster way.</p><figure id="ae298d65-28ed-4904-a53b-a9121166bb41" class="image"><a href="ixigo%20Assured%20Revamp%20f9f0ec6f1ff94471b0e1626e223165dc/3_-_Pre_Booking.png"><img style="width:1818px" src="ixigo%20Assured%20Revamp%20f9f0ec6f1ff94471b0e1626e223165dc/3_-_Pre_Booking.png"/></a></figure><p id="c4466f73-b070-4823-bf4f-fc0de5840626" class="">
 </p><p id="34630cd2-7ef5-4230-ba9f-3f5ddba79a97" class="">We started our wireframes with the <strong>Fare Options page</strong> which has the most visibility of the product and a decision point having a point of concern, clearly evident from the research aforementioned. </p><p id="30aa46c1-0982-4580-8ae8-041abad680e2" class="">Our initial shots at the concept involved with experimenting with different view folds and ways to help users directly compare the fare types as the primary motive. </p><p id="4e514ee3-45af-47d6-b7e9-5160c116cdc1" class="">We narrowed down it to :</p><ol id="43bc4e57-addc-496c-94db-8047751d6984" class="numbered-list" start="1"><li><strong>Tabbed</strong> : In this view we showed the benefits that are not present in the basic fare type with a crossed-out interaction and an odometer type animation to grab attention of the end user when there&#x27;s a change in the amount of a benefit. </li></ol><ol id="1611cd22-da45-4131-92c9-ebbc95a9ff36" class="numbered-list" start="2"><li><strong>SASS</strong> : One of the most common ways in which SASS companies portray their products&#x27; pricing is by stacking the attributes (benefits) vertically and putting ticks, crosses and values in front of them for a direct head to head comparison amongst the top level pricing categories. </li></ol><p id="952452ec-36f8-4eb4-b5a9-0a9fa5c644e9" class="">
-</p><figure id="75325297-8bcf-4ce7-87d4-3a20b99d0a4d"><div class="source"><a href="ixigo%20Assured%20Revamp%20f9f0ec6f1ff94471b0e1626e223165dc/Assured_v2_iteration.mp4">https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c9611eed-e682-4a5d-8408-596522ce8adb/Assured_v2_iteration.mp4</a></div></figure><p id="83908b12-438c-4835-b5e6-5e3991d2a24d" class="">
+</p><figure id="75325297-8bcf-4ce7-87d4-3a20b99d0a4d"><div>
+  <iframe src="https://www.youtube.com/embed/aL5of_VyBu4?vq=hd1080&autoplay=1&iv_load_policy=3" width= 100% height= 100% frameborder="0"></iframe>
+  
+  <!-- <embed src="https://www.youtube.com/embed/aL5of_VyBu4" type="">
+  <a href="https://youtu.be/aL5of_VyBu4">https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c9611eed-e682-4a5d-8408-596522ce8adb/Assured_v2_iteration.mp4</a> -->
+  
+  </div></figure><p id="83908b12-438c-4835-b5e6-5e3991d2a24d" class="">
 </p><h3 id="1379fb5c-cb39-4c7b-8bc0-4b59994ae07c" class="">Fare Type Selection</h3><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="f26d8aa7-928b-49f4-b3bb-3f4796e6542b"><div style="font-size:1.5em"><span class="icon">💡</span></div><div style="width:100%">We went ahead with the SASS paradigm as it gives a clear head to head comparison of the fare types.</div></figure><p id="1b5564ca-f850-4d77-8991-f72f2e88e520" class="">With the SASS paradigm frozen, the need was to explicitly show the exact refund amount with the exact fare type. </p><p id="04aabb17-9e32-451f-b0c7-f0e6a9933e83" class="">The challenge was that all airlines have different logics to define the refund amount on cancellation against a particular booking. That&#x27;s the reason why we never showed that in the 1st place. </p><p id="b3933037-ebfc-4d67-be08-aaf7ce08eb47" class="">We deep dived into close intensive sessions with the product and backend teams to figure out a way to solve this problem as it remains the crux of the overall view fold anyways. If we can&#x27;t tell the exact amount, then can be more than 95% accurate and also don&#x27;t overshoot the limit which might render us in big troubles in the cases of cancellation.</p><p id="cfe64a90-8a42-4c48-afaf-f63c8451f005" class="">Ultimately we finalised different logics for the LCC (Low cost carriers : IndiGo, SG, GoAir, Air Asia) and bigger airlines (like Air India and Vistara). </p><p id="836d0955-1b21-4844-a18c-3ee682636f17" class="">
 </p><figure id="2cb69d4e-3a94-43c4-8097-feb4a85ef80e" class="image"><a href="ixigo%20Assured%20Revamp%20f9f0ec6f1ff94471b0e1626e223165dc/5_-_SRP_Loader_and_Fare_OPtions.png"><img style="width:1818px" src="ixigo%20Assured%20Revamp%20f9f0ec6f1ff94471b0e1626e223165dc/5_-_SRP_Loader_and_Fare_OPtions.png"/></a></figure><h3 id="bdf89596-7ea1-49e9-b455-ee433ed84a5f" class="">Flights Review </h3><figure id="f6095d60-54ff-40ca-a874-82cb03bf6a71" class="image"><a href="ixigo%20Assured%20Revamp%20f9f0ec6f1ff94471b0e1626e223165dc/6_-_Flight_Review.png"><img style="width:1818px" src="ixigo%20Assured%20Revamp%20f9f0ec6f1ff94471b0e1626e223165dc/6_-_Flight_Review.png"/></a></figure><p id="4d404c4d-4cdb-4c85-867f-c37fd3935034" class="">
 </p><h3 id="6b882996-b1c5-4a71-9613-cba11568354c" class="">Impact</h3><p id="800b3598-7e46-434e-a214-156c5868ebd6" class="">The complications involved with fetching the exact refund amounts are still a big concern for us. In the small time frame of 5 days during the last week of February we saw the attachment rates increasing to 22% on the experiment before we had to pull the plug to solve the issues with the Backend. </p><p id="1cb03de1-0928-4be3-b811-d9dc4cee9eb0" class="">Though an extended run of the new revamp can only lead to more concrete numbers and different metric improvements on repeat use-case and stuff like that. </p><figure id="549faddf-9269-449f-a4e8-d32608f6a69d" class="image"><a href="ixigo%20Assured%20Revamp%20f9f0ec6f1ff94471b0e1626e223165dc/7-_Temp_Impact.png"><img style="width:1818px" src="ixigo%20Assured%20Revamp%20f9f0ec6f1ff94471b0e1626e223165dc/7-_Temp_Impact.png"/></a></figure><p id="28f5dc02-b87d-4e49-9cbb-1ddd33bff76e" class="">
