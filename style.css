@@ -289,6 +289,16 @@ margin: 8vh 0;
   margin-bottom: 3vh;
 }
 
+@media screen and (max-width: 1500px) 
+{
+  #profile-container { 
+  margin: 12vh 9vw;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+}
 
 @media only screen and (max-width: 600px) {
   #container {
@@ -348,7 +358,6 @@ margin: 8vh 0;
   font-size: 0.95rem;
 
 }
-
 
 }
 
