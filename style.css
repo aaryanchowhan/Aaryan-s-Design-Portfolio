@@ -252,6 +252,48 @@ margin: 8vh 0;
     font-size: 1.8rem;
     padding-right: 1.6rem;
   }
+
+  #profile-container { 
+  margin: 10vh 16vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+}
+
+#profile-photo{
+position: relative;
+margin: 8vh 0;
+}
+
+#profile-photo img{
+  width: 225px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+#profile-description{
+  position: relative;
+  margin-top: -4vh;
+  margin-bottom: 8vh;
+  margin-left: -5vw;
+  width: 18rem;;
+}
+
+#profile-description h2{
+  position: relative;
+  margin-bottom: 0;
+
+}
+
+#profile-description p{
+  position: relative;
+  margin-top: -3vh;
+  font-size: 0.95rem;
+
+}
+
+
 }
 
 
