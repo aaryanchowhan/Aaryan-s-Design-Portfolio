@@ -17,6 +17,58 @@ body {
   color: rgb(0, 0, 0, 0.87);
 }
 
+.styles_emojiWave__23zi6 {
+    display: inline-block;
+    animation-name: styles_wave-animation__3WUJO;
+    animation-duration: 2.5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+}
+
+@keyframes styles_wave-animation__3WUJO{
+0% {
+    transform: rotate(
+0deg
+);
+}
+10% {
+    transform: rotate(
+14deg
+);
+}
+20% {
+    transform: rotate(
+-8deg
+);
+}
+30% {
+    transform: rotate(
+14deg
+);
+}
+40% {
+    transform: rotate(
+-4deg
+);
+}
+50% {
+    transform: rotate(
+10deg
+);
+}
+60% {
+    transform: rotate(
+0deg
+);
+}
+100% {
+    transform: rotate(
+0deg
+);
+}
+}
+
 #links a {
   padding-left: 1.5rem;
 }
@@ -56,7 +108,7 @@ body {
 }
 
 #description p{
-  font-size: 1.3vw;
+  font-size: 1.25vw;
   color: rgb(0,0,0, 0.7)
 }
 
@@ -98,16 +150,23 @@ body {
 .card {
   height: 310px;
   width: 100%;
-  background: #808080;
+  //background: #808080;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
   border-radius: 10px;
   transition: background 0.8s;
   overflow: hidden;
-  background: #000;
   box-shadow: 0 4px 20px 0px rgb(0, 0, 0, 0.15);
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+}
+
+.card:hover{
+  background-size: 150%;
+  background-position: left center;
 }
 
 .border h1{
@@ -119,23 +178,15 @@ body {
 }
 
 .card0 {
-  background: url("assets/assured_card.png") center center no-repeat;
-  background-size: 100%;
-}
-
-.card0:hover {
-  background: url("assets/assured_card.png") left center no-repeat;
-  background-size: 150%;
+   background-image: url("assets/assured_card.png");
 }
 
 .card1 {
-  background: url("assets/googledrive_card.png") center center no-repeat;
-  background-size: 100%;
+  background-image: url("assets/googledrive_card.png");
 }
 
-.card1:hover{
-   background: url("assets/googledrive_card.png") left center no-repeat;
-  background-size: 150%;
+.card3{
+  background-image: url("assets/comingsoon_card.png");
 }
 
 #case_study{
@@ -143,6 +194,10 @@ body {
 }
 
 #case_study_02 {
+  margin-top: 4vh;
+}
+
+#case_study_03{
   margin-top: 4vh;
 }
 
@@ -196,7 +251,7 @@ margin: 8vh 0;
 #profile-description p{
   position: relative;
   margin-top: -3vh;
-  font-size: 0.95rem;
+  font-size: 1rem;
 
 }
 
@@ -233,6 +288,7 @@ margin: 8vh 0;
   color: rgb(0, 0, 0, 0.40);
   margin-bottom: 3vh;
 }
+
 
 @media only screen and (max-width: 600px) {
   #container {
