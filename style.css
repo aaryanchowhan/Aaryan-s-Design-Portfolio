@@ -83,8 +83,10 @@ body {
 }
 
 #description a{
-  background: rgb(173,46,65);
-  background: linear-gradient(135deg, rgba(173,46,65,1) 0%, rgba(114,16,83,1) 100%);
+  background: rgb(244,51,151);
+background: linear-gradient(90deg, rgba(244,51,151,1) 0%, rgba(255,142,191,1) 100%);
+  //background: rgb(173,46,65);
+  //background: linear-gradient(135deg, rgba(173,46,65,1) 0%, rgba(114,16,83,1) 100%);
   -webkit-text-fill-color: transparent;-webkit-background-clip: text;
   position: relative;
 }
