@@ -217,6 +217,16 @@ background: linear-gradient(90deg, rgba(244,51,151,1) 0%, rgba(255,142,191,1) 10
   color: rgb(0, 0, 0, 0.87);
 }
 
+#case_study_04 a {
+  text-decoration: none;
+  color: rgb(0, 0, 0, 0.87);
+}
+
+#case_study_03 a {
+  text-decoration: none;
+  color: rgb(0, 0, 0, 0.87);
+}
+
 #case_study a {
   text-decoration: none;
   color: rgb(0, 0, 0, 0.87);
