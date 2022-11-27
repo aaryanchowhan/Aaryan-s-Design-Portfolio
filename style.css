@@ -195,6 +195,10 @@ background: linear-gradient(90deg, rgba(244,51,151,1) 0%, rgba(255,142,191,1) 10
   background-image: url("assets/minigame_card.png");
 }
 
+.card5{
+  background-image: url("assets/0_1discovery_card.png");
+}
+
 #case_study{
   margin-top: 7vh;
 }
@@ -211,6 +215,14 @@ background: linear-gradient(90deg, rgba(244,51,151,1) 0%, rgba(255,142,191,1) 10
   margin-top: 5vh;
 }
 
+#case_study_05{
+  margin-top: 5vh;
+}
+
+#case_study_05 a {
+  text-decoration: none;
+  color: rgb(0, 0, 0, 0.87);
+}
 
 #case_study_02 a {
   text-decoration: none;
